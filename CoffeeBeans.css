@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header ul{
+    list-style:none;
+}
+.header li{
+    float: left;
+    margin:5vh 10vh;
+    font-size: 3vh;
+    color: aliceblue;
+
+}
+.main{
+    /* width: 900vw;*/
+    background-image: url(https://qph.cf2.quoracdn.net/main-qimg-6655fa1e0dfc50f892567ac70976aaf2-lq);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.main h1{
+    margin: 5vh 3vh;
+    font-size: 12vh;
+    float:right;
+    color: aliceblue;
+}
+.Para{
+    /* margin-top: em; */
+    margin-left:3em;
+    margin-right: 4vh;
+color: rgb(160, 59, 41);
+font-weight: bold;
+font-size: 4.5vh;
+float: right;
+}
+.third{
+    font-size: 3vh;
+    color: aliceblue;
+}
+.btn button{
+    color: aliceblue;
+    border:1px solid white;
+    background-color:transparent;
+float: right;
+font-size: 2.5vh;
+padding: 2.9px;
+font-weight: bold;
+/* margin-left:7em; */
+/* margin-right: 14vh; */
+margin-top:20vh;
+margin-left:20vh;
+
+    /* opacity: 0; */
+}
