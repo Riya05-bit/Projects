@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.circle1{
+    background-image: url('https://t3.ftcdn.net/jpg/00/51/34/96/360_F_51349670_duRi8afCw4d4pmYCw4Dr7DCyjIGiEyNh.jpg');
+    width: 48vw;
+    height: 48vw;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 2vw;
+    left:35vw;
+    /* opacity:0; */
+    animation: name1 2s;
+    }
+    @keyframes name1{
+        0%{
+            opacity: 0.1;
+            left:-10vw;
+        }
+        100%{
+            left:35vw;
+            opacity:1;
+        }
+    }
+
+
+.circle2{
+    width:45vw;
+    height:45vw;
+    position: absolute;
+    background-color:#1b356a;
+    padding: 12vw 6vw;
+    margin: 2vw auto;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    border-radius: 50%;
+    top:17vw;
+    left:15vw;
+    animation:name2 2s;
+}
+.circle3{
+    width:40vw;
+    height:40vw;
+    background: #999999;
+    position: absolute;
+    border-radius: 50%;
+    top: 25vw;
+    left:35vw;
+    z-index:-1;
+    opacity: 1;
+    animation: name3 6s;
+}
+@keyframes name3{
+    0%{
+        opacity:0;
+        top:30vw;
+    }
+}
+@keyframes name2{
+    0%{
+        opacity:0;
+        top:25vw;
+        /* width: 10vw; */
+        /* height: 10vw; */
+        /* text-align: center; */
+        font-size:1.3vw;
+        transform: rotate(180deg);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.circle2 h1{
+    font-size:3.5vw;
+}
+.circle2 p{
+    font-size:1.3vw;
+    margin: 1vw;
+    font-weight: 100;
+    line-height: 2.5vw;
+    font-family: 'Open Sans', sans-serif;
+}
+.circle2 div{
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.4vw;
+    margin:3vw;
+    font-weight: 100;
+}
+.circle2 div a{
+    position: relative;
+    text-decoration: none;
+    font-size:1.4vw;
+    font-weight: 100;
+    color: #fff;
+}
+.circle2 div a:hover{
+    color: #ffffffb6;
+}
+.circle2 hr{
+    width: 4.8vw;
+    margin-left:14.8vw;
+}
+.circle2 hr:hover{
+    border: 0.1px solid skyblue;
+    cursor: pointer;
+}
+.circle2 button{
+    padding: 1.5vw;
+    width: 15vw;
+    border-radius: 3vw;
+    border:1.8px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size:1vw;
+    letter-spacing:0.2vw;
+    font-weight:600;
+}
+.circle2 button:hover{
+    color: #1b356a;
+    background-color: #fff;
+    cursor: pointer;
+}
+.image img{
+    position: relative;
+    width: 100%;
+    margin-top: 30vw;
+    height: 90vh;
+}
+.bluebg{
+    position: relative;
+    width:100%;
+    height: 150vh;
+    top:-23vw;
+    background: #1b356a;
+    display: flex;
+    padding: 0 12vw;
+    justify-content: space-around;
+    /* animation: fourthAnime 5s; */
+}
+.smallcircle1 img{
+    width: 12vw;
+    position: relative;
+    height: 12vw;
+    border-radius:50%;
+    background: #000;
+    border:15px solid #fff;
+    top: -8vw;
+    animation: fourthAnime1 2s;
+}
+.smallcircle1 h1{
+    position: relative;
+    color: #fff;
+    top: -7vw;
+    font-family: Montserrat, sans-serif;
+    font-size:1.4vw;
+    animation: fourthAnime2 2s;
+}
+@keyframes fourthAnime1{
+    0%{
+        opacity:0.1;
+        transform: rotate(200deg);
+    }
+}
+@keyframes fourthAnime2{
+    0%{
+        top:-2vw;
+        opacity:0.1;
+    }
+}
+.smallcircle2 img{
+    width: 12vw;
+    position: relative;
+    height: 12vw;
+    border-radius:50%;
+    background: #000;
+    border:15px solid #fff;
+    top: -8vw;
+    animation: fourthAnime1 3s;
+}
+.smallcircle2 h1{
+    position: relative;
+    color: #fff;
+    top: -7vw;
+    font-family: Montserrat, sans-serif;
+    font-size:1.4vw;
+    left: -1vw;
+    animation: fourthAnime2 2s;
+}
+.smallcircle3 img{
+    width: 12vw;
+    position: relative;
+    height: 12vw;
+    border-radius:50%;
+    background: #000;
+    border:15px solid #fff;
+    top: -8vw;
+    animation: fourthAnime1 3s;
+}
+.smallcircle3 h1{
+    position: relative;
+    color: #fff;
+    top: -7vw;
+    font-family: Montserrat, sans-serif;
+    font-size:1.4vw;
+    left: 2vw;
+    animation: fourthAnime2 2s;
+}
+.smallcircle4 img{
+    width: 12vw;
+    position: relative;
+    height: 12vw;
+    border-radius:50%;
+    background: #000;
+    border:15px solid #fff;
+    top: -8vw;
+    animation: fourthAnime1 3s;
+}
+.smallcircle4 h1{
+    position: relative;
+    color: #fff;
+    top: -7vw;
+    font-family: Montserrat, sans-serif;
+    font-size:1.4vw;
+    animation: fourthAnime2 2s;
+}
+.oneOfFiveCirle{
+    width:45vw;
+    height:45vw;
+    position: relative;
+    background-color:#fff;
+    padding: 12vw 6vw;
+    margin:auto;
+    font-weight: 700;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    border-radius: 50%;
+    top:-80vw;
+    left:1vw;
+    animation:Anime2 2s;
+}
+.oneOfFiveCirle h1{
+    font-size:3.5vw;
+}
+.oneOfFiveCirle p{
+    font-size:1.3vw;
+    margin: 1vw;
+    font-weight: 100;
+    line-height: 2.5vw;
+    font-family: 'Open Sans', sans-serif;
+}
+.oneOfFiveCirle div{
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.4vw;
+    margin:3vw;
+    font-weight: 100;
+}
+.oneOfFiveCirle div a{
+    position: absolute;
+    text-decoration: none;
+    font-size:1.4vw;
+    font-weight: 100;
+    color: #000;
+}
+.oneOfFiveCirle div a:hover{
+    color: #1b356a;
+}
+.oneOfFiveCirle hr{
+    width: 4.8vw;
+    margin-left:0.3vw;
+}
+.oneOfFiveCirle hr:hover{
+    border: 0.1px solid skyblue;
+    cursor: pointer;
+}
+.oneOfFiveCirle button{
+    padding: 1.5vw;
+    width: 15vw;
+    border-radius: 3vw;
+    border:1.8px solid #000;
+    background-color: transparent;
+    color: #000;
+    font-size:1vw;
+    letter-spacing:0.2vw;
+    font-weight:600;
+}
+.oneOfFiveCirle button:hover{
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+@keyframes Anime2{
+    0%{
+        opacity:0;
+        /* top:25vw; */
+        /* width: 10vw; */
+        /* height: 10vw; */
+        /* text-align: center; */
+        font-size:1.3vw;
+        transform: rotate(180deg);
+    }
+    100%{
+        opacity: 1;
+    }}
+    .fourCircles{
+        display: flex;
+        justify-content: space-evenly;
+        width: 10vw;
+        position: absolute;
+        top: 120vw;
+
+    }
+    .middleCircle1 img{
+        position: absolute;
+        background: #000;
+        top:-15vw;
+        left:12vw;
+        width: 28vw;
+        height: 28vw;
+        animation:Anime2 2s;
+        border-radius:50%;
+    }
+    .middleCircle2 img{
+        position: absolute;
+        top:18vw;
+        right:-30vw;
+        width: 28vw;
+        height: 28vw;
+        border-radius:50%;
+        animation:Anime2 2s;
+    }
+    .middleCircle3 img{
+        position: absolute;
+        top:15vw ;
+        right:-80vw;
+        width: 30vw;
+        height: 30vw;
+        border-radius:50%;
+        bottom:18vw;
+        animation:Anime2 2s;
+    }
+    .middleCircle4 img{
+        position: absolute;
+        top:-15vw; 
+        right:-80vw;
+        width: 30vw;
+        height: 30vw;
+        border-radius:50%;
+        animation:Anime2 2s;
+    }
+   
